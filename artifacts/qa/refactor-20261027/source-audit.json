@@ -1,0 +1,27 @@
+{
+  "sourceRetiredSymbolsAbsent": {
+    "FlexReloan": true,
+    "ReloanOfferShard": true,
+    "hubReborrow": true,
+    "hubInstallApp": true,
+    "syncInstallApps": true,
+    "RupeeInstallAppProbe": true,
+    "PulseResolver": true,
+    "seedHosts": true,
+    "preferBuiltInHost": true,
+    "activeHost": true,
+    "pastebin.com": true,
+    "gitee.com": true
+  },
+  "notificationOrFirebaseSourceFindings": [],
+  "pendingUrls": [
+    {
+      "file": "FlexRupee/Core/Network/FlexServiceEndpoint.swift",
+      "line": 6
+    },
+    {
+      "file": "FlexRupee/Shared/Widgets/FlexCofferWidgets.swift",
+      "line": 12
+    }
+  ]
+}

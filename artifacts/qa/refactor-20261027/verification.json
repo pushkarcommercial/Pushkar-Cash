@@ -1,0 +1,30 @@
+{
+  "verifiedAt": "2026-10-27T10:01:08.954912+08:00",
+  "checks": [
+    {
+      "check": "Debug simulator build",
+      "exitCode": 0
+    },
+    {
+      "check": "Release simulator build",
+      "exitCode": 0
+    },
+    {
+      "check": "model/copy contracts",
+      "exitCode": 0
+    }
+  ],
+  "bundle": {
+    "Debug": {
+      "retiredStringsAbsent": true,
+      "querySchemesAbsent": true,
+      "permissionDescriptionsNonempty": true
+    },
+    "Release": {
+      "retiredStringsAbsent": true,
+      "querySchemesAbsent": true,
+      "permissionDescriptionsNonempty": true
+    }
+  },
+  "scope": "No network or real account/loan transactions. Production API replacement and static H5 URLs remain pending."
+}

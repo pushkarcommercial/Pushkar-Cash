@@ -1,0 +1,58 @@
+PASS: config reads rejectH5
+PASS: config reads nested rejectH5
+PASS: config reads reject_h5
+PASS: config reads nested reject_h5
+PASS: missing reject link stays missing
+PASS: strict permission flag preserved
+PASS: contact batching is not notification push
+PASS: rating guidance remains available
+PASS: retired configuration fields are ignored
+PASS: code 2000001 uses local copy
+PASS: code 2000001 discards remote prose
+PASS: code 2000002 uses local copy
+PASS: code 2000002 discards remote prose
+PASS: code 2002001 uses local copy
+PASS: code 2002001 discards remote prose
+PASS: code 2009006 uses local copy
+PASS: code 2009006 discards remote prose
+PASS: code 6212009 uses local copy
+PASS: code 6212009 discards remote prose
+PASS: code 6212011 uses local copy
+PASS: code 6212011 discards remote prose
+PASS: code 6212201 uses local copy
+PASS: code 6212201 discards remote prose
+PASS: code 6230002 uses local copy
+PASS: code 6230002 discards remote prose
+PASS: code 6230003 uses local copy
+PASS: code 6230003 discards remote prose
+PASS: code 6234303 uses local copy
+PASS: code 6234303 discards remote prose
+PASS: code 4102007 uses local copy
+PASS: code 4102007 discards remote prose
+PASS: code 999999 uses local copy
+PASS: code 999999 discards remote prose
+PASS: session-expiry meaning preserved
+PASS: pending withdrawal meaning preserved
+PASS: recommendation rejection meaning preserved
+PASS: missing code has local fallback
+PASS: submit order identity shape 0 preserved
+PASS: submit order identity shape 1 preserved
+PASS: submit order identity shape 2 preserved
+PASS: submit order identity shape 3 preserved
+PASS: submit order identity shape 4 preserved
+PASS: empty submit list is not success identity
+PASS: home eligibility fields preserved
+PASS: home rating member type preserved
+PASS: home no longer decodes remote banner
+PASS: home withdraw banner is local
+PASS: home KYC banner is local
+PASS: order action fields preserved
+PASS: order footer is not backend prose
+PASS: normal upgrade destination retained
+PASS: required upgrade destination retained
+PASS: unused release prose removed
+PASS: KYC schema and validation metadata preserved
+PASS: recommendation amount selection preserved
+PASS: recommendation term selection preserved
+PASS: local field error keeps field context
+57 model/copy contracts passed. No network calls or runtime permission changes.

@@ -1,0 +1,90 @@
+# Fastfile — 免 match / 免登录，配合 GitHub Secrets 中的 p12 + 描述文件
+# 主 App 的签名/描述文件在 Xcode 工程里配置；不要通过 xcargs 全局传 PROVISIONING_PROFILE（会误伤 Pods）
+
+SCHEME_NAME      = ENV.fetch("SCHEME_NAME", "PencilProject")
+DEVELOPMENT_TEAM = ENV["DEVELOPMENT_TEAM"]
+BUNDLE_ID        = ENV.fetch("BUNDLE_ID", "wodeinfocoude")
+PROFILE_SPEC     = ENV.fetch("PROVISIONING_PROFILE_SPECIFIER", "wodeinfocoude")
+
+default_platform(:ios)
+
+platform :ios do
+  desc "CI：Secrets 签名后构建并上传 TestFlight（无 match）"
+  lane :beta_no_match do
+    unlock_ci_keychain
+
+    api_key = app_store_connect_api_key(
+      key_id: ENV["ASC_KEY_ID"],
+      issuer_id: ENV["ASC_ISSUER_ID"],
+      key_content: ENV["ASC_PRIVATE_KEY"],
+      is_key_content_base64: false
+    )
+
+    build_app(
+      **xcode_build_target,
+      scheme: SCHEME_NAME,
+      configuration: "Release",
+      export_method: "app-store",
+      clean: true,
+      silent: false,
+      suppress_xcode_output: false,
+      export_options: {
+        method: "app-store",
+        provisioningProfiles: {
+          BUNDLE_ID => PROFILE_SPEC
+        }
+      },
+      xcargs: manual_signing_xcargs
+    )
+
+    upload_to_testflight(
+      api_key: api_key,
+      skip_waiting_for_build_processing: true
+    )
+  end
+end
+
+def ios_project_root
+  File.expand_path("..", FastlaneCore::FastlaneFolder.path)
+end
+
+def unlock_ci_keychain
+  return unless ENV["KEYCHAIN_PATH"] && !ENV["KEYCHAIN_PATH"].empty?
+
+  pwd = ENV["KEYCHAIN_PASSWORD"]
+  path = ENV["KEYCHAIN_PATH"]
+  UI.message("使用 CI 钥匙串: #{path}")
+  sh("security unlock-keychain -p '#{pwd}' '#{path}'") if pwd && !pwd.empty?
+end
+
+def manual_signing_xcargs
+  # 勿设置 PROVISIONING_PROFILE_SPECIFIER / CODE_SIGN_IDENTITY：会作用到所有 Pods target 导致失败
+  args = {
+    "DEVELOPMENT_TEAM" => DEVELOPMENT_TEAM
+  }
+
+  if ENV["KEYCHAIN_PATH"] && !ENV["KEYCHAIN_PATH"].empty?
+    args["OTHER_CODE_SIGN_FLAGS"] = "--keychain #{ENV['KEYCHAIN_PATH']}"
+  end
+
+  args.compact
+end
+
+def xcode_build_target
+  root = ios_project_root
+  UI.message("iOS 工程根目录: #{root}")
+
+  if ENV["WORKSPACE_NAME"] && !ENV["WORKSPACE_NAME"].strip.empty?
+    ws_path = File.join(root, ENV["WORKSPACE_NAME"].strip)
+    UI.user_error!("WORKSPACE_NAME 不存在: #{ws_path}") unless File.exist?(ws_path)
+    return { workspace: ws_path }
+  end
+
+  workspaces = Dir[File.join(root, "*.xcworkspace")].sort
+  return { workspace: workspaces.first } if workspaces.any?
+
+  projects = Dir[File.join(root, "*.xcodeproj")].sort
+  return { project: projects.first } if projects.any?
+
+  UI.user_error!("在 #{root} 下找不到 xcworkspace/xcodeproj")
+end

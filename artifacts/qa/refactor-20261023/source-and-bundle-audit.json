@@ -1,0 +1,37 @@
+{
+  "retiredSourceSymbolsAbsent": {
+    "FlexReloan": true,
+    "ReloanOfferShard": true,
+    "ReloanStateEnvelope": true,
+    "hubReborrow": true,
+    "hubInstallApp": true,
+    "syncInstallApps": true,
+    "RupeeInstallAppProbe": true,
+    "/app/v3/mobile/installApp": true,
+    "/app/v3/product/state": true,
+    "dismissReloanOverlay": true
+  },
+  "retiredBinarySymbolsAbsent": {
+    "Debug": {
+      "/app/v3/mobile/installApp": true,
+      "/app/v3/product/state": true,
+      "FlexReloanPanel": true,
+      "RupeeInstallAppProbe": true
+    },
+    "Release": {
+      "/app/v3/mobile/installApp": true,
+      "/app/v3/product/state": true,
+      "FlexReloanPanel": true,
+      "RupeeInstallAppProbe": true
+    }
+  },
+  "deferredURLsAndPermissionGateSourcesUnchanged": {
+    "FlexRupee/Core/Network/PulseResolver.swift": true,
+    "FlexRupee/Modules/Auth/Store/GateSessionStore.swift": true,
+    "FlexRupee/Shared/Widgets/FlexLegalDocCanvas.swift": true,
+    "FlexRupee/Core/Consent/RupeeGeoCoordinator.swift": true,
+    "FlexRupee/Core/Consent/RupeeContactHarvester.swift": true,
+    "FlexRupee/Core/Capture/FlexCaptureCoordinator.swift": true,
+    "FlexRupee/Core/Launch/FlexLaunchPipeline.swift": true
+  }
+}

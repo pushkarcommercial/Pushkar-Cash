@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		527C9919A263C628909647B3 /* Pods_FlexRupee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A459F098439A6A379ED172 /* Pods_FlexRupee.framework */; };
+		FDCB16DF30A16F6E006B66D2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB16DE30A16F6E006B66D2 /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FDCB16E130A16F73006B66D2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB16E030A16F73006B66D2 /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FDCB16E330A16F79006B66D2 /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB16E230A16F79006B66D2 /* AdServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FDCB16E530A16F7F006B66D2 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB16E430A16F7F006B66D2 /* AppTrackingTransparency.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FDCB16E730A16F88006B66D2 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB16E630A16F88006B66D2 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5EED91080B54DF3D959ACA62 /* Pods-FlexRupee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexRupee.release.xcconfig"; path = "Target Support Files/Pods-FlexRupee/Pods-FlexRupee.release.xcconfig"; sourceTree = "<group>"; };
+		681C9DB67063E00C4FC2EC32 /* Pods-FlexRupee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexRupee.debug.xcconfig"; path = "Target Support Files/Pods-FlexRupee/Pods-FlexRupee.debug.xcconfig"; sourceTree = "<group>"; };
+		70A459F098439A6A379ED172 /* Pods_FlexRupee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexRupee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB692BB2FF20B2C0061263B /* FlexRupee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexRupee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCB16DE30A16F6E006B66D2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FDCB16E030A16F73006B66D2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		FDCB16E230A16F79006B66D2 /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
+		FDCB16E430A16F7F006B66D2 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		FDCB16E630A16F88006B66D2 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FDB692CD2FF20B2E0061263B /* Exceptions for "FlexRupee" folder in "FlexRupee" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FDB692BA2FF20B2C0061263B /* FlexRupee */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FDB692BD2FF20B2C0061263B /* FlexRupee */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FDB692CD2FF20B2E0061263B /* Exceptions for "FlexRupee" folder in "FlexRupee" target */,
+			);
+			path = FlexRupee;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDB692B82FF20B2C0061263B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCB16E730A16F88006B66D2 /* AdSupport.framework in Frameworks */,
+				FDCB16E530A16F7F006B66D2 /* AppTrackingTransparency.framework in Frameworks */,
+				FDCB16E330A16F79006B66D2 /* AdServices.framework in Frameworks */,
+				FDCB16E130A16F73006B66D2 /* WebKit.framework in Frameworks */,
+				FDCB16DF30A16F6E006B66D2 /* StoreKit.framework in Frameworks */,
+				527C9919A263C628909647B3 /* Pods_FlexRupee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12AC2E1642D89C7B616C5685 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				681C9DB67063E00C4FC2EC32 /* Pods-FlexRupee.debug.xcconfig */,
+				5EED91080B54DF3D959ACA62 /* Pods-FlexRupee.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		267294FF79192DBD1C4B1684 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDCB16E630A16F88006B66D2 /* AdSupport.framework */,
+				FDCB16E430A16F7F006B66D2 /* AppTrackingTransparency.framework */,
+				FDCB16E230A16F79006B66D2 /* AdServices.framework */,
+				FDCB16E030A16F73006B66D2 /* WebKit.framework */,
+				FDCB16DE30A16F6E006B66D2 /* StoreKit.framework */,
+				70A459F098439A6A379ED172 /* Pods_FlexRupee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDB692B22FF20B2C0061263B = {
+			isa = PBXGroup;
+			children = (
+				FDB692BD2FF20B2C0061263B /* FlexRupee */,
+				FDB692BC2FF20B2C0061263B /* Products */,
+				12AC2E1642D89C7B616C5685 /* Pods */,
+				267294FF79192DBD1C4B1684 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDB692BC2FF20B2C0061263B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDB692BB2FF20B2C0061263B /* FlexRupee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDB692BA2FF20B2C0061263B /* FlexRupee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB692CE2FF20B2E0061263B /* Build configuration list for PBXNativeTarget "FlexRupee" */;
+			buildPhases = (
+				9C0C4FCAC46789534AC3C8AF /* [CP] Check Pods Manifest.lock */,
+				FDB692B72FF20B2C0061263B /* Sources */,
+				FDB692B82FF20B2C0061263B /* Frameworks */,
+				FDB692B92FF20B2C0061263B /* Resources */,
+				C883D8A295D968A35A39799E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FDB692BD2FF20B2C0061263B /* FlexRupee */,
+			);
+			name = FlexRupee;
+			productName = FlexRupee;
+			productReference = FDB692BB2FF20B2C0061263B /* FlexRupee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDB692B32FF20B2C0061263B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					FDB692BA2FF20B2C0061263B = {
+						CreatedOnToolsVersion = 26.5;
+					};
+				};
+			};
+			buildConfigurationList = FDB692B62FF20B2C0061263B /* Build configuration list for PBXProject "FlexRupee" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDB692B22FF20B2C0061263B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FDB692BC2FF20B2C0061263B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDB692BA2FF20B2C0061263B /* FlexRupee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDB692B92FF20B2C0061263B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9C0C4FCAC46789534AC3C8AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlexRupee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C883D8A295D968A35A39799E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlexRupee/Pods-FlexRupee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlexRupee/Pods-FlexRupee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlexRupee/Pods-FlexRupee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDB692B72FF20B2C0061263B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FDB692CF2FF20B2E0061263B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 681C9DB67063E00C4FC2EC32 /* Pods-FlexRupee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FlexRupee/FlexRupee.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = T5G2KQ77GZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlexRupee/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pushkar Cash";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Pushkar Cash would like access to your camera so that you can capture and upload required documents. The camera feature helps make information submission more convenient. Captured content is only used for actions that you choose to perform. You can manage this permission at any time in your device settings.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "To complete the necessary contact verification during the loan review process, Pushkar Cash needs you to allow access to your contacts. This verification is part of the security assessment system and is intended to confirm the credibility of the contact information you provided. Your contact data will be encrypted and used for this single comparison, and the system will automatically perform a deletion operation after verification. We will not retain this information or use it for other analyses. Your authorization will not affect the submission and acceptance of the loan application itself.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "After authorizing location permission, you will receive higher-quality loan products matched to your region. Your location information is used only for service provision and will not be shared with third parties.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "To make recommended content and service displays more suitable for your needs, Pushkar Cash requests IDFA authorization. IDFA helps us analyze preferences, identify service matching directions, and optimize the usage process. The relevant information will be processed under the principle of minimum necessity and used for service optimization, safety analysis, and experience improvement. The information will not be used for unrelated purposes.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pushkarcash.morvex.point;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = pushkarcashPro;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FDB692D02FF20B2E0061263B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EED91080B54DF3D959ACA62 /* Pods-FlexRupee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FlexRupee/FlexRupee.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = T5G2KQ77GZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlexRupee/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pushkar Cash";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Pushkar Cash would like access to your camera so that you can capture and upload required documents. The camera feature helps make information submission more convenient. Captured content is only used for actions that you choose to perform. You can manage this permission at any time in your device settings.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "To complete the necessary contact verification during the loan review process, Pushkar Cash needs you to allow access to your contacts. This verification is part of the security assessment system and is intended to confirm the credibility of the contact information you provided. Your contact data will be encrypted and used for this single comparison, and the system will automatically perform a deletion operation after verification. We will not retain this information or use it for other analyses. Your authorization will not affect the submission and acceptance of the loan application itself.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "After authorizing location permission, you will receive higher-quality loan products matched to your region. Your location information is used only for service provision and will not be shared with third parties.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "To make recommended content and service displays more suitable for your needs, Pushkar Cash requests IDFA authorization. IDFA helps us analyze preferences, identify service matching directions, and optimize the usage process. The relevant information will be processed under the principle of minimum necessity and used for service optimization, safety analysis, and experience improvement. The information will not be used for unrelated purposes.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pushkarcash.morvex.point;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = pushkarcashPro;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FDB692D12FF20B2E0061263B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9XH6BL4847;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDB692D22FF20B2E0061263B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9XH6BL4847;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDB692B62FF20B2C0061263B /* Build configuration list for PBXProject "FlexRupee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB692D12FF20B2E0061263B /* Debug */,
+				FDB692D22FF20B2E0061263B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB692CE2FF20B2E0061263B /* Build configuration list for PBXNativeTarget "FlexRupee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB692CF2FF20B2E0061263B /* Debug */,
+				FDB692D02FF20B2E0061263B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDB692B32FF20B2C0061263B /* Project object */;
+}

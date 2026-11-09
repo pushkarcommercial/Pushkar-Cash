@@ -1,0 +1,6 @@
+framework module Pods_FlexRupee {
+  umbrella header "Pods-FlexRupee-umbrella.h"
+
+  export *
+  module * { export * }
+}

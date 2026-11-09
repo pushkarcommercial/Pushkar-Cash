@@ -1,0 +1,71 @@
+{
+  "verifiedAt": "2026-10-23T11:32:51.878454+08:00",
+  "results": [
+    {
+      "check": "Debug simulator build",
+      "exitCode": 0,
+      "command": [
+        "xcodebuild",
+        "-workspace",
+        "FlexRupee.xcworkspace",
+        "-scheme",
+        "FlexRupee",
+        "-configuration",
+        "Debug",
+        "-sdk",
+        "iphonesimulator",
+        "-destination",
+        "generic/platform=iOS Simulator",
+        "-derivedDataPath",
+        "/tmp/flexrupee-refactor-build",
+        "CODE_SIGNING_ALLOWED=NO",
+        "build"
+      ],
+      "log": "artifacts/qa/refactor-20261023/debug-build.log"
+    },
+    {
+      "check": "Release simulator build",
+      "exitCode": 0,
+      "command": [
+        "xcodebuild",
+        "-workspace",
+        "FlexRupee.xcworkspace",
+        "-scheme",
+        "FlexRupee",
+        "-configuration",
+        "Release",
+        "-sdk",
+        "iphonesimulator",
+        "-destination",
+        "generic/platform=iOS Simulator",
+        "-derivedDataPath",
+        "/tmp/flexrupee-refactor-build",
+        "CODE_SIGNING_ALLOWED=NO",
+        "build"
+      ],
+      "log": "artifacts/qa/refactor-20261023/release-build.log"
+    },
+    {
+      "check": "model/copy contracts",
+      "exitCode": 0,
+      "command": [
+        "python3",
+        "Scripts/test_refactor_contracts.py"
+      ],
+      "log": "artifacts/qa/refactor-20261023/model-contracts.log"
+    }
+  ],
+  "bundleChecks": {
+    "Debug": {
+      "appQueriesRemoved": true,
+      "nonemptyPermissionDescriptions": true,
+      "fontFilesPresent": true
+    },
+    "Release": {
+      "appQueriesRemoved": true,
+      "nonemptyPermissionDescriptions": true,
+      "fontFilesPresent": true
+    }
+  },
+  "scope": "Build and no-network model/copy tests only; no real service, loan submission, or UI end-to-end verification."
+}

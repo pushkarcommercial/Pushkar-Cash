@@ -1,0 +1,747 @@
+[
+  {
+    "key": "Gate.secureSubtitle",
+    "before": "Secure financial services",
+    "after": "Finance with greater clarity"
+  },
+  {
+    "key": "Gate.mobilePlaceholder",
+    "before": "Please enter mobile number",
+    "after": "Your mobile number"
+  },
+  {
+    "key": "Gate.legalPrefix",
+    "before": "I have read and accepted ",
+    "after": "I agree to the "
+  },
+  {
+    "key": "Gate.mobileEmpty",
+    "before": "Please enter mobile number",
+    "after": "Add your mobile number"
+  },
+  {
+    "key": "Gate.mobileInvalid",
+    "before": "Please enter correct phone number",
+    "after": "Use a valid 10-digit mobile number"
+  },
+  {
+    "key": "Gate.otpInvalid",
+    "before": "Please enter correct OTP",
+    "after": "Check the code and enter it again"
+  },
+  {
+    "key": "Gate.otpSent",
+    "before": "OTP has been sent",
+    "after": "A verification code is on its way"
+  },
+  {
+    "key": "Gate.agreementRequired",
+    "before": "Please read and accept Privacy Policy and Service Agreement",
+    "after": "Accept the Privacy Policy and Service Agreement before signing in"
+  },
+  {
+    "key": "Gate.policyUnavailable",
+    "before": "The system is busy. Please try again in 2 minutes.",
+    "after": "This document could not be opened. Please try again shortly."
+  },
+  {
+    "key": "Hub.checkInHint",
+    "before": "If you check in continuously, you'll have the chance to get a quick review.",
+    "after": "Regular check-ins may help keep your application review on track."
+  },
+  {
+    "key": "Hub.checkInAction",
+    "before": "Check in immediately",
+    "after": "Check in now"
+  },
+  {
+    "key": "Hub.kycBanner",
+    "before": "Please submit your KYC certification information for review.",
+    "after": "Complete your verification details so your application can be reviewed."
+  },
+  {
+    "key": "Hub.changeBankAccount",
+    "before": "Change Bank Account",
+    "after": "Update bank details"
+  },
+  {
+    "key": "Hub.maxLoanAmount",
+    "before": "Maximum Loan Amount",
+    "after": "Available borrowing limit"
+  },
+  {
+    "key": "Hub.matchingTitle",
+    "before": "Matching in progress...",
+    "after": "Finding suitable options…"
+  },
+  {
+    "key": "Hub.matchingBody",
+    "before": "Congratulations on completing your order! Apply for a new loan now, enjoy exclusive offers, and realize your dream easily!",
+    "after": "We are checking the available loan options. Please keep this page open while the search finishes."
+  },
+  {
+    "key": "Hub.noRecommendCopy",
+    "before": "You do not currently meet the requirements for this product. Once a more suitable loan product becomes available, we will notify you through the app. Please stay tuned.",
+    "after": "No suitable offer is available for your current profile. You can return later to check for other options."
+  },
+  {
+    "key": "Hub.selectOneProduct",
+    "before": "Please select at least one",
+    "after": "Choose at least one product to continue"
+  },
+  {
+    "key": "Hub.selectLoanAmount",
+    "before": "Select loan amount",
+    "after": "Choose borrowing amount"
+  },
+  {
+    "key": "Hub.selectAmountManually",
+    "before": "Please select loan amount manually (₹)",
+    "after": "Choose the amount you wish to borrow (₹)"
+  },
+  {
+    "key": "Hub.loanAmountRupee",
+    "before": "Loan amount (₹)",
+    "after": "Borrowing amount (₹)"
+  },
+  {
+    "key": "Hub.loanDetailsExpand",
+    "before": "Loan details >>",
+    "after": "View loan details ›"
+  },
+  {
+    "key": "Hub.withdrawPending",
+    "before": "You have an order pending withdrawal. Please withdraw first.",
+    "after": "An order is awaiting withdrawal. Open it to continue."
+  },
+  {
+    "key": "Hub.withdrawBody",
+    "before": "You have an order pending withdrawal. After entering the page to confirm, the funds will be transferred to your bank account immediately.",
+    "after": "Your withdrawal is waiting for confirmation. Review the order and confirm your bank details to proceed."
+  },
+  {
+    "key": "Hub.withdrawAction",
+    "before": "To be withdrawn",
+    "after": "Awaiting your withdrawal"
+  },
+  {
+    "key": "Hub.applyPrompt",
+    "before": "Please note that you have an application to submit, please process it promptly",
+    "after": "Your application still needs a final submission. Open the order to finish it."
+  },
+  {
+    "key": "Hub.emptyOffers",
+    "before": "No products available right now",
+    "after": "There are no offers to show at the moment."
+  },
+  {
+    "key": "Hub.loadFailed",
+    "before": "Unable to refresh home. Pull to try again.",
+    "after": "Home could not be refreshed. Pull down to reload."
+  },
+  {
+    "key": "Hub.rejectVolumeBanner",
+    "before": "Accurate recommendation available",
+    "after": "Explore other available recommendations"
+  },
+  {
+    "key": "Ledger.applyDate",
+    "before": "Date of application",
+    "after": "Application sent on"
+  },
+  {
+    "key": "Ledger.changeBank",
+    "before": "Change bank account",
+    "after": "Update bank details"
+  },
+  {
+    "key": "Ledger.repayLinkMissing",
+    "before": "Repay link unavailable",
+    "after": "The payment page is not available right now."
+  },
+  {
+    "key": "Ledger.deferLinkMissing",
+    "before": "Extension link unavailable",
+    "after": "The extension page could not be opened."
+  },
+  {
+    "key": "Ledger.withdrawSubmitted",
+    "before": "Withdrawal submitted successfully",
+    "after": "Your withdrawal request has been sent."
+  },
+  {
+    "key": "Ledger.deferSubmitted",
+    "before": "Extension request submitted",
+    "after": "Your extension request has been sent."
+  },
+  {
+    "key": "Ledger.bannerReview",
+    "before": "Your application is currently under review, and the final loan amount depends on the credit assessment. Maintaining a good credit record can enhance the actual loan amount approved.",
+    "after": "Your application is being assessed. The approved amount will depend on the outcome of the credit review."
+  },
+  {
+    "key": "Ledger.bannerRepay",
+    "before": "Please repay the loan on time according to the repayment date provided by the system. Maintaining good credit will continue to increase your loan limit.",
+    "after": "Check the due date below and complete your payment on time to keep your repayment record up to date."
+  },
+  {
+    "key": "Ledger.bannerWithdraw",
+    "before": "Take action right now! Once you confirm your pending withdrawal order, we will promptly transfer the funds to your bank account.",
+    "after": "Review this order and confirm the withdrawal to continue the transfer process."
+  },
+  {
+    "key": "Ledger.upiWarning",
+    "before": "UPI is valid for 15 minutes. To avoid your loss, please use the new link generated by the repayment button to repay.",
+    "after": "This UPI link expires after 15 minutes. Use the Repay button to generate a fresh link before paying."
+  },
+  {
+    "key": "Ledger.noteContinueSubmit",
+    "before": "Please submit complete information. In this case we will deal with your application in a shorter time.",
+    "after": "Some application details are still required. Complete them and submit the application for review."
+  },
+  {
+    "key": "Ledger.noteReview",
+    "before": "In the loan review process, the credit assessment will impact the final approved amount. Maintaining good credit helps secure a higher loan limit.",
+    "after": "The final borrowing amount is determined during the credit assessment. Check this order for updates."
+  },
+  {
+    "key": "Ledger.noteReject",
+    "before": "Sorry, your loan qualification review did not receive approval.",
+    "after": "This application did not meet the approval requirements."
+  },
+  {
+    "key": "Ledger.noteDisbursing",
+    "before": "The loan will soon be disbursed to your receiving account. Please monitor the order status promptly.",
+    "after": "The transfer is being processed. Return to this order to check for the latest update."
+  },
+  {
+    "key": "Ledger.noteRepay",
+    "before": "Please repay on time before the due date. Timely repayments will significantly increase your subsequent loan eligibility.",
+    "after": "Complete the payment by the due date shown in this order."
+  },
+  {
+    "key": "Ledger.noteOverdue",
+    "before": "This order is now overdue. Please repay as soon as possible to avoid further damage to your credit.",
+    "after": "The repayment date has passed. Please review the outstanding amount and arrange payment."
+  },
+  {
+    "key": "Ledger.noteChangeBank",
+    "before": "Your bank card information can not be verified by the system. Please update your bank card information.",
+    "after": "The receiving account could not be verified. Check and update your bank details."
+  },
+  {
+    "key": "Ledger.noteCancel",
+    "before": "Your order has been canceled. If you need assistance, please contact customer service.",
+    "after": "This order has been cancelled. Contact support if you need help with the cancellation."
+  },
+  {
+    "key": "Ledger.pickAmountTitle",
+    "before": "Select loan amount",
+    "after": "Choose borrowing amount"
+  },
+  {
+    "key": "Ledger.pickTermTitle",
+    "before": "Select the loan term",
+    "after": "Choose repayment term"
+  },
+  {
+    "key": "Ledger.withdrawSuccessBody",
+    "before": "Withdrawal is successful, the funds will be transferred to your bank account, please check.",
+    "after": "Your withdrawal request was accepted. Check your bank account and the order status for transfer updates."
+  },
+  {
+    "key": "Verify.fieldEmptyFormat",
+    "before": "'%@' is empty or in an incorrect format.",
+    "after": "Check %@ and provide a valid value."
+  },
+  {
+    "key": "Verify.emailInvalid",
+    "before": "Please enter correct email",
+    "after": "Use a valid email address"
+  },
+  {
+    "key": "Verify.contactPhoneInvalid",
+    "before": "The contact phone number is invalid, please check",
+    "after": "Check the selected contact’s mobile number"
+  },
+  {
+    "key": "Verify.contactNameEmpty",
+    "before": "You can not leave your name section empty",
+    "after": "Add a name for this contact"
+  },
+  {
+    "key": "Verify.aadhaarUpload",
+    "before": "Please upload the front/back of your Aadhaar",
+    "after": "Add clear images of both sides of your Aadhaar"
+  },
+  {
+    "key": "Verify.panUpload",
+    "before": "Please upload your PAN",
+    "after": "Add your PAN card image"
+  },
+  {
+    "key": "Verify.ifscRequired",
+    "before": "Please select a BANK State/City/Name/Branch first.",
+    "after": "Choose the bank state, city, bank and branch before continuing."
+  },
+  {
+    "key": "Verify.returnConfirmTitle",
+    "before": "Confirm to return?",
+    "after": "Leave this step?"
+  },
+  {
+    "key": "Verify.returnConfirmBody",
+    "before": "Do you want to pause the authentication and return to the homepage?",
+    "after": "Pause verification and return to the home screen?"
+  },
+  {
+    "key": "Verify.ifscPlaceholder",
+    "before": "Please enter or choose",
+    "after": "Type or select a code"
+  },
+  {
+    "key": "Verify.bankAccountHint",
+    "before": "Please enter correct, available, unfrozen bank account information for the loan to be credited.",
+    "after": "Provide an active, unrestricted bank account that can receive the loan transfer."
+  },
+  {
+    "key": "Verify.accountMismatch",
+    "before": "Bank account numbers do not match.",
+    "after": "Enter the same account number in both fields."
+  },
+  {
+    "key": "Verify.aadhaarInvalid",
+    "before": "Please enter a valid Aadhaar number.",
+    "after": "Check the Aadhaar number and enter it again."
+  },
+  {
+    "key": "Verify.panInvalid",
+    "before": "Please enter a valid PAN number.",
+    "after": "Check the PAN number and enter it again."
+  },
+  {
+    "key": "Verify.imageUploadFailed",
+    "before": "Image upload failed. Please try again.",
+    "after": "The image could not be uploaded. Please retry."
+  },
+  {
+    "key": "Verify.uploadErrorBody",
+    "before": "Please upload the photo again.",
+    "after": "Choose a clearer image and upload it again."
+  },
+  {
+    "key": "Verify.uploadErrorTipSmall",
+    "before": "The ID photo is too small.",
+    "after": "Move closer so the document is readable."
+  },
+  {
+    "key": "Verify.uploadErrorTipCovered",
+    "before": "The ID is partially covered.",
+    "after": "Keep every part of the document visible."
+  },
+  {
+    "key": "Verify.uploadErrorTipClear",
+    "before": "Clear and unobstructed.",
+    "after": "Use a sharp, fully visible image."
+  },
+  {
+    "key": "Verify.selectBankState",
+    "before": "Please select a BANK State first.",
+    "after": "Choose the state where the bank is located."
+  },
+  {
+    "key": "Verify.selectBankCity",
+    "before": "Please select a BANK City first.",
+    "after": "Choose the bank’s city to continue."
+  },
+  {
+    "key": "Verify.selectBankName",
+    "before": "Please select a BANK Name first.",
+    "after": "Choose a bank before selecting its branch."
+  },
+  {
+    "key": "Verify.selectBankBranch",
+    "before": "Please select a BANK Branch first.",
+    "after": "Choose the branch to finish the selection."
+  },
+  {
+    "key": "Verify.uploadAadhaarTitle",
+    "before": "Please upload your Aadhaar",
+    "after": "Add your Aadhaar images"
+  },
+  {
+    "key": "Verify.aadhaarTip1",
+    "before": "Please make sure that the Aadhaar card you upload is genuine and valid.",
+    "after": "Use your own current and valid Aadhaar card."
+  },
+  {
+    "key": "Verify.aadhaarTip2",
+    "before": "Please make sure that the uploaded Aadhaar card photo is clear and complete, otherwise it will not pass verification.",
+    "after": "Include the whole card in a well-lit, readable photo so the details can be checked."
+  },
+  {
+    "key": "Verify.faceInstruction",
+    "before": "Please put your face in the frame and take a clear selfie",
+    "after": "Centre your face inside the outline and take a sharp selfie."
+  },
+  {
+    "key": "Verify.faceInstructionHi",
+    "before": "कृपया अपना चेहरा फ्रेम में रखें और एक स्पष्ट सेल्फी लें",
+    "after": "चेहरा दिखाई गई सीमा के बीच रखें और साफ़ सेल्फी खींचें।"
+  },
+  {
+    "key": "Verify.aadhaarFrontMissing",
+    "before": "Please upload the front of your Aadhaar",
+    "after": "Add an image of the Aadhaar front"
+  },
+  {
+    "key": "Verify.aadhaarBackMissing",
+    "before": "Please upload the back of your Aadhaar",
+    "after": "Add an image of the Aadhaar back"
+  },
+  {
+    "key": "Verify.contactRelationMissing",
+    "before": "%@ - 'Relationship' not selected. Please choose before submitting.",
+    "after": "Choose the relationship for %@ before continuing."
+  },
+  {
+    "key": "Verify.contactMissing",
+    "before": "Contact%@ - Please add your emergency contacts.",
+    "after": "Add the details for emergency contact %@."
+  },
+  {
+    "key": "Verify.contactDuplicate",
+    "before": "The contact has been submitted, please enter another contact",
+    "after": "This phone number is already listed. Choose a different contact."
+  },
+  {
+    "key": "Verify.captureSheetCamera",
+    "before": "Turn on the camera",
+    "after": "Use the camera"
+  },
+  {
+    "key": "Verify.captureSheetLibrary",
+    "before": "Open the photo library",
+    "after": "Choose from photos"
+  },
+  {
+    "key": "Verify.uploadPanTitle",
+    "before": "Please upload your PAN",
+    "after": "Add your PAN card image"
+  },
+  {
+    "key": "Verify.uploadPanSubtitleHi",
+    "before": "कृपया अपने पैन कार्ड के सामने वाले हिस्से को अपलोड करें",
+    "after": "अपने पैन कार्ड के सामने की साफ़ तस्वीर जोड़ें।"
+  },
+  {
+    "key": "Verify.panFront",
+    "before": "Front of PAN",
+    "after": "PAN front image"
+  },
+  {
+    "key": "Verify.panRetakeTip",
+    "before": "If the information is wrong, please re-take and upload the front of the PAN",
+    "after": "If the details are incorrect, take a new photo of the PAN front and upload it."
+  },
+  {
+    "key": "Verify.panRetakeTipHi",
+    "before": "अगर जानकारी गलत है तो कृपया पैन की तस्वीर दोबारा लें और अपलोड करें",
+    "after": "जानकारी गलत होने पर पैन कार्ड के सामने की नई तस्वीर खींचकर अपलोड करें।"
+  },
+  {
+    "key": "Verify.takePhoto",
+    "before": "Take a photo",
+    "after": "Capture a photo"
+  },
+  {
+    "key": "Coffer.loanTerms",
+    "before": "Terms of the loan",
+    "after": "Loan terms and conditions"
+  },
+  {
+    "key": "Coffer.signOutBody",
+    "before": "Are you sure to sign out your account?",
+    "after": "Sign out of FlexRupee on this device?"
+  },
+  {
+    "key": "Coffer.deleteBody",
+    "before": "When your loan order is under review and loan processing, you cannot cancel your account. When your loan order has not been settled, you cannot cancel your account. After confirming the cancellation, the account will not be restored. Please operate with caution.",
+    "after": "Account closure is unavailable while an application is under review, a loan is being processed, or an order remains unsettled. Closing an eligible account is permanent and cannot be reversed. Check your orders before confirming."
+  },
+  {
+    "key": "Coffer.deleteSuccessBody",
+    "before": "Account cancelled successfully.",
+    "after": "Your account has been closed."
+  },
+  {
+    "key": "Coffer.deleteFailedBody",
+    "before": "Account cancellation failed, please check your order.",
+    "after": "Your account could not be closed. Review any outstanding orders before retrying."
+  },
+  {
+    "key": "Coffer.bankHint",
+    "before": "Clicking the bank card logo, you can modify the information. But when your loan order is under review, you can not modify bank account information.",
+    "after": "Tap the bank card to update its details. Changes are unavailable while a loan application is being reviewed."
+  },
+  {
+    "key": "Coffer.contactHint",
+    "before": "If you have any questions, please save the proof and contact customer service.",
+    "after": "Keep any relevant receipts or screenshots and contact our support team for help."
+  },
+  {
+    "key": "Coffer.officialHint",
+    "before": "When encountering issues with your app, you can also apply and repay through the official website. We recommend that you save the official website address, click to copy.",
+    "after": "You can also access application and repayment services on our official website. Copy and save the address for later use."
+  },
+  {
+    "key": "Coffer.feedbackHint",
+    "before": "You can describe the problem you encounter in detail on this page, or send your problem to our email, leave your contact information, and we will contact you as soon as possible!",
+    "after": "Tell us what happened below, or email our support team. Include a way to contact you if you would like a reply."
+  },
+  {
+    "key": "Coffer.aboutBody",
+    "before": "FlexRupee provides secure and transparent financial services. We are committed to protecting your personal information and delivering a smooth borrowing experience.",
+    "after": "FlexRupee brings application, verification and repayment services together in one place, with clear access to your loan information and account support."
+  },
+  {
+    "key": "Coffer.feedbackEmpty",
+    "before": "Please enter your feedback",
+    "after": "Describe the issue before sending your feedback"
+  },
+  {
+    "key": "Coffer.feedbackSubmitted",
+    "before": "Feedback submitted successfully",
+    "after": "Your feedback has been received"
+  },
+  {
+    "key": "Coffer.feedbackUploadFailed",
+    "before": "Image upload failed. Please try again.",
+    "after": "Your attachment was not uploaded. Please retry."
+  },
+  {
+    "key": "Coffer.feedbackLimit",
+    "before": "Feedback cannot exceed 1000 characters",
+    "after": "Keep your feedback within 1,000 characters"
+  },
+  {
+    "key": "Coffer.repayHint1",
+    "before": "When you repay, we recommend that you use the repayment link provided in the app first. If you use a link different from the app or official website, it will result in a repayment failure.",
+    "after": "Use the payment link generated in FlexRupee or on its official website. Other links may not correctly record a repayment against your order."
+  },
+  {
+    "key": "Coffer.repayHint2",
+    "before": "If you encounter any suspicious situation during the repayment process, please contact customer service via email in time.",
+    "after": "If a payment request looks suspicious, email support before proceeding."
+  },
+  {
+    "key": "Coffer.repayHint3",
+    "before": "If someone asks you to split the payment or sends you a link that does not match, please verify with customer service. If the situation is verified, the service fee will be waived.",
+    "after": "If you are asked to split a payment or use an unfamiliar link, confirm it with support first. A service-fee waiver applies only after support verifies the reported situation."
+  },
+  {
+    "key": "Loan.amountTip",
+    "before": "Tips: Select loan amount first",
+    "after": "Choose an amount before selecting a term"
+  },
+  {
+    "key": "Loan.creditBanner",
+    "before": "Your credit status directly affects your loan limit, and a good credit history helps you secure better loan terms.",
+    "after": "Your credit assessment helps determine the available amount and borrowing terms."
+  },
+  {
+    "key": "Loan.selectTerm",
+    "before": "Select the loan period",
+    "after": "Choose repayment period"
+  },
+  {
+    "key": "Loan.emiDate",
+    "before": "1st EMI Date",
+    "after": "First instalment date"
+  },
+  {
+    "key": "Loan.applyDate",
+    "before": "Date of application",
+    "after": "Application sent on"
+  },
+  {
+    "key": "Loan.termsPrefix",
+    "before": "I have read and agreed with the ",
+    "after": "I accept the "
+  },
+  {
+    "key": "Loan.termsLink",
+    "before": "Terms Of The Loan",
+    "after": "Loan terms and conditions"
+  },
+  {
+    "key": "Loan.agreementRequired",
+    "before": "Please read and agree to the Terms Of The Loan",
+    "after": "Accept the loan terms before sending this application"
+  },
+  {
+    "key": "Loan.amountOutOfRange",
+    "before": "Loan amount must stay within the product limit",
+    "after": "Choose an amount within this product’s available range"
+  },
+  {
+    "key": "Loan.submitSuccess",
+    "before": "Application submitted successfully",
+    "after": "Your application has been sent"
+  },
+  {
+    "key": "Loan.submitting",
+    "before": "Your application is being submitted. Please be patient.",
+    "after": "Sending your application. Please keep this page open."
+  },
+  {
+    "key": "Loan.pendingOrderBody",
+    "before": "You have already applied for this product, and your current application is being processed. You cannot apply again at this time. You can view the order details or go back to choose another product to apply for.",
+    "after": "An application for this product is already being processed. Open its order details for updates, or return to explore other products."
+  },
+  {
+    "key": "Loan.successDesc",
+    "before": "Your application is under review. Once approved, the money will be credited to your bank account.",
+    "after": "Your application has entered review. If it is approved, the transfer will be arranged to your bank account."
+  },
+  {
+    "key": "FieldHint.interest",
+    "before": "Calculated based on your loan amount, loan term, and the interest rate of the current product.",
+    "after": "Interest is worked out using the selected amount, repayment term and the product’s interest rate."
+  },
+  {
+    "key": "FieldHint.serviceFee",
+    "before": "This is the fee charged by the financial institution for providing loan services.",
+    "after": "The lender charges this fee for providing the loan service."
+  },
+  {
+    "key": "FieldHint.amountReceivedProduct",
+    "before": "The actual amount you receive is calculated by deducting the service fee from the loan amount.",
+    "after": "The amount paid to you is the loan amount less the service fee."
+  },
+  {
+    "key": "FieldHint.amountReceivedOrder",
+    "before": "The actual amount you receive is calculated by deducting the service fee and GST from the loan amount.",
+    "after": "The amount paid to you is the loan amount less the service fee and GST."
+  },
+  {
+    "key": "Consent.locationSettings",
+    "before": "Please allow FlexRupee to access location in the settings so that you can complete the loan application",
+    "after": "To continue with this application, enable location access for FlexRupee in Settings."
+  },
+  {
+    "key": "Consent.contactsBody",
+    "before": "FlexRupee needs to access your contacts to perform fraud detection. This process helps us verify your identity and ensure the security of your account. To avoid affecting the review results, please select \\\"Allow Full Access\\\" when authorizing. We attach great importance to your privacy, and your contact information will be uploaded to our server, but will not be stored or shared with third parties. You can change your authorization at any time in the settings.",
+    "after": "FlexRupee uploads the contacts you authorize to its server for identity and fraud-risk checks. Full access is required by the current verification flow. You can review or change this permission in Settings."
+  },
+  {
+    "key": "Consent.uploadFailed",
+    "before": "Application data upload failed. Please try again.",
+    "after": "The required application data could not be sent. Please retry."
+  },
+  {
+    "key": "EMI.loanAmountTitle",
+    "before": "Total loan amount",
+    "after": "Amount to calculate"
+  },
+  {
+    "key": "EMI.amountRangeHint",
+    "before": "(₹1 ~ ₹1,00,00,000)",
+    "after": "₹1–₹1,00,00,000"
+  },
+  {
+    "key": "EMI.durationRangeHint",
+    "before": "(1 ~ 25 Year)",
+    "after": "1–25 years"
+  },
+  {
+    "key": "EMI.rateRangeHint",
+    "before": "(1 ~ 22%)",
+    "after": "1%–22%"
+  },
+  {
+    "key": "EMI.amountRequired",
+    "before": "Please enter a valid loan amount (₹1 - ₹1,00,00,000)",
+    "after": "Use an amount from ₹1 to ₹1,00,00,000"
+  },
+  {
+    "key": "EMI.durationRequired",
+    "before": "Please enter duration in years (1 - 25)",
+    "after": "Use a whole-year duration from 1 to 25"
+  },
+  {
+    "key": "EMI.rateRequired",
+    "before": "Please enter interest rate (1% - 22%)",
+    "after": "Use an annual interest rate between 1% and 22%"
+  },
+  {
+    "key": "EMI.summaryAmount",
+    "before": "Total loan amount (₹)",
+    "after": "Amount to calculate (₹)"
+  },
+  {
+    "key": "EMI.summaryRate",
+    "before": "Interest rate (%)",
+    "after": "Annual interest (%)"
+  },
+  {
+    "key": "Network.busy",
+    "before": "The system is busy. Please try again in 2 minutes.",
+    "after": "We could not complete this request. Please try again shortly."
+  },
+  {
+    "key": "Network.decodeFailed",
+    "before": "Data parsing failed",
+    "after": "The response could not be read. Please retry."
+  },
+  {
+    "key": "Network.sessionExpired",
+    "before": "Session expired. Please sign in again.",
+    "after": "Your sign-in has expired. Log in again to continue."
+  },
+  {
+    "key": "Network.updateRequired",
+    "before": "Please update the app to continue",
+    "after": "Install the latest FlexRupee version to continue."
+  },
+  {
+    "key": "Release.upgradeBody",
+    "before": "A new version is available. Please update to enjoy the latest features and security improvements.",
+    "after": "An updated FlexRupee version is ready. Install it to receive the latest improvements."
+  },
+  {
+    "key": "Rating.body",
+    "before": "If you like our app, please consider giving us a five-star rating, which would greatly support us!",
+    "after": "Enjoying FlexRupee? Share your rating to help us understand your experience."
+  },
+  {
+    "key": "Rating.selectStarsHint",
+    "before": "Please select a rating.",
+    "after": "Choose a star rating before continuing."
+  },
+  {
+    "key": "Rating.thanksBody",
+    "before": "Thank you for your valuable feedback! Your input is crucial in enhancing our services, and we are committed to continuous improvement.",
+    "after": "We appreciate your feedback. It helps us identify what to improve in FlexRupee."
+  },
+  {
+    "key": "Capture.cameraBody",
+    "before": "Please allow FlexRupee to access camera in the settings so that you can take photos",
+    "after": "Enable camera access for FlexRupee in Settings to photograph your documents or take a verification selfie."
+  },
+  {
+    "key": "Capture.unavailable",
+    "before": "Camera is not available on this device",
+    "after": "This device has no available camera."
+  },
+  {
+    "key": "Capture.capturePan",
+    "before": "Capture PAN Card",
+    "after": "Photograph PAN card"
+  },
+  {
+    "key": "Capture.missingPhoto",
+    "before": "Please capture the required photo first",
+    "after": "Take the required photo before continuing."
+  }
+]

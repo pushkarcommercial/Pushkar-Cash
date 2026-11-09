@@ -1,0 +1,93 @@
+PODS:
+  - Adjust (5.4.6):
+    - Adjust/Adjust (= 5.4.6)
+  - Adjust/Adjust (5.4.6):
+    - AdjustSignature (= 3.61.0)
+  - AdjustSignature (3.61.0)
+  - Alamofire (4.9.1)
+  - GoogleAdsOnDeviceConversion (3.0.0):
+    - GoogleUtilities/Environment (~> 8.1)
+    - GoogleUtilities/Logger (~> 8.1)
+    - GoogleUtilities/Network (~> 8.1)
+    - nanopb (~> 3.30910.0)
+  - GoogleUtilities/Environment (8.1.0):
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Logger (8.1.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Network (8.1.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Privacy
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (8.1.0)":
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Privacy (8.1.0)
+  - GoogleUtilities/Reachability (8.1.0):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - IQKeyboardManagerSwift (6.5.16)
+  - Kingfisher (8.9.0)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Moya/RxSwift (13.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - nanopb (3.30910.0):
+    - nanopb/decode (= 3.30910.0)
+    - nanopb/encode (= 3.30910.0)
+  - nanopb/decode (3.30910.0)
+  - nanopb/encode (3.30910.0)
+  - ObjectMapper (3.4.2)
+  - Result (4.1.0)
+  - RxSwift (4.5.0)
+  - SnapKit (5.7.1)
+  - YYStarView (1.0.2)
+
+DEPENDENCIES:
+  - Adjust (~> 5.4.5)
+  - GoogleAdsOnDeviceConversion (= 3.0.0)
+  - IQKeyboardManagerSwift (~> 6.5.1)
+  - Kingfisher
+  - Moya/RxSwift (= 13.0.1)
+  - ObjectMapper (= 3.4.2)
+  - SnapKit
+  - YYStarView
+
+SPEC REPOS:
+  trunk:
+    - Adjust
+    - AdjustSignature
+    - Alamofire
+    - GoogleAdsOnDeviceConversion
+    - GoogleUtilities
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - Moya
+    - nanopb
+    - ObjectMapper
+    - Result
+    - RxSwift
+    - SnapKit
+    - YYStarView
+
+SPEC CHECKSUMS:
+  Adjust: 293c828a88a2c280471797edb3e895c80652a786
+  AdjustSignature: 94b6b7f7150edbbebc4320eeaddaac881f6e8e2d
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  GoogleAdsOnDeviceConversion: b4fcc557983271d53177d75ddf704c025791d261
+  GoogleUtilities: 00c88b9a86066ef77f0da2fab05f65d7768ed8e1
+  IQKeyboardManagerSwift: 12d89768845bb77b55cc092ecc2b1f9370f06b76
+  Kingfisher: 90f3a3c2871a71e01d5493c1c196fc2d3ff132cf
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  nanopb: fad817b59e0457d11a5dfbde799381cd727c1275
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  YYStarView: 88da305c4e86bc2468758e9313f2d25cce4f3ba3
+
+PODFILE CHECKSUM: 63707bf132c7bc872147dc3fc0b7e6c1b6b0b039
+
+COCOAPODS: 1.16.2
