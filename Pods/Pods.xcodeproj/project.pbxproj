@@ -32,6 +32,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		A26527F403385EF19019F8D0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 74C64EF97EA4A3C6056D1445 /* PrivacyInfo.xcprivacy */; };
 		000EA14D63887C3F9F7CF7A6CDFB7573 /* ADJLinkResolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D6E501E7E95811EC878FD8983157ED /* ADJLinkResolution.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		00789924F6FF8825AF75A2776BFA015F /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDA3639E2EA05BCB4AF94C8A63741AB /* ISO8601DateTransform.swift */; };
 		00EEF831A314771FF730A0D92B6F3163 /* ADJLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1778B05A3AAE1AE6F19CD1F19904B123 /* ADJLogger.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -745,6 +746,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		74C64EF97EA4A3C6056D1445 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Source/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		0158709BF5F162759885D47E7C9009F2 /* ADJSdkClickHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJSdkClickHandler.h; path = Adjust/Internal/ADJSdkClickHandler.h; sourceTree = "<group>"; };
 		024639BB354C1B471186BF591D54C45B /* ObserverType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObserverType.swift; path = RxSwift/ObserverType.swift; sourceTree = "<group>"; };
 		0255D409C0235B331AD3DB0AB7697C2D /* GULReachabilityChecker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULReachabilityChecker.h; path = GoogleUtilities/Reachability/Public/GoogleUtilities/GULReachabilityChecker.h; sourceTree = "<group>"; };
@@ -1958,6 +1960,7 @@
 		875E0CC0EE4B1019971F1C777F2ACF0C /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
+				74C64EF97EA4A3C6056D1445 /* PrivacyInfo.xcprivacy */,
 				11FD9F44A8EA50FC43E76BC45698371D /* AFError.swift */,
 				02937C83DE198EACA6315919B7D1A74A /* Alamofire.swift */,
 				40874D3BD7AB649FF1B19851727077A7 /* DispatchQueue+Alamofire.swift */,
@@ -3157,6 +3160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A26527F403385EF19019F8D0 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
